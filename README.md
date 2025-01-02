@@ -10,7 +10,6 @@ Enhanced Metabolite-Disease Associations Prediction via Neighborhood Aggregation
 - pytorch == 1.12.1
 - numpy == 1.22.4+mkl
 - pandas == 1.4.4
-- scikit-learn == 1.2.2
 
 
 ## 🗓️ Dataset
@@ -23,13 +22,12 @@ Complete result: association_matrix_completed_admm.csv
 
 ## 🛠️ Model options
 ```
---epochs           int     Number of training epochs.                 Default is 500.
---input dim        int     initial feature dimention.                 Default is 256.
---hidden dim       int     GCN Layer1 output dimention.               Default is 64.
---nclass dim       int     GCN Layer2 output dimention                Default is 512.
---dropout          float   Dropout rate                               Default is 0.1.
---lr               float   Learning rate                              Default is 0.005.
---wd               float   weight decay                               Default is 5e-4.
+--epochs           int     Number of training epochs.                   Default is 200.
+--GCNlayers        int     the number of layers in GCN.                 Default is 2.
+--MHAheads         int     the number of heads in multi-head attention. Default is 1.
+--dropout          float   Dropout rate                                 Default is 0.2.
+--lr               float   Learning rate                                Default is 0.005.
+--wd               float   weight decay                                 Default is 5e-4.
 
 ```
 
