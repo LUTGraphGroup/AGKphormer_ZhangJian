@@ -1,5 +1,5 @@
-# WGCNCDLC
-Enhancing Disease-Related Metabolite Prediction with Weighted Graph Convolutional Networks Based on Community-Driven Link Completion
+# AGKphormer
+Enhanced Metabolite-Disease Associations Prediction via Neighborhood Aggregation Graph Transformer with Fast Kolmogorov-Arnold Networks
 
 ## 🏠 Overview
 ![image](https://github.com/LUTGraphGroup/WGCNCDLC_Liuwenzhi/assets/109469869/26127fb7-2ed2-483b-9713-12c44f72b946)
