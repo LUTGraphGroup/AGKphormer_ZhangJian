@@ -18,7 +18,7 @@ Enhanced Metabolite-Disease Associations Prediction via Neighborhood Aggregation
 disease-metabolite associations: association_matrix.csv and disease-metabolite.xlsx
 Disease similarity network: diease_network_simi.csv
 Metabolite similarity network: metabolite_ntework_simi.csv
-community complete result: A_new_greedy.csv
+Complete result: association_matrix_completed_admm.csv
 ```
 
 ## 🛠️ Model options
