@@ -33,8 +33,7 @@ Complete result: association_matrix_completed_admm.csv
 
 ## 🎯 How to run?
 ```
-1. The data folder stores associations and similarities. 
-2、Run greedy_modularity_communities.py to get the completed association matrix.
-3、Run train.py in the py_code folder to get the experimental results.
-
+1. Run `similarity_compute.py` to obtain the similarity matrix.
+2. Run `admm_matrix_completion.py` to get the enhanced association matrix.
+3. Run `main.py` to obtain the experimental results.
 ```
